@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    border:0;
+    background: lightyellow;
+}
+header > div:nth-child(1){
+    min-height: 150px;
+    display:flex;
+    justify-content: space-around;
+}
+header > div > h1{
+    /* width: 160px; */
+    /* height: 100px; */
+    /* background: #8734f7; */
+    /* -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg); */
+
+    background-color: rgba(0,0,0,0.0);
+    /* min-height:150px; */
+    /* width:300px; */
+    vertical-align: middle;
+    line-height: normal;
+    line-height:150px;
+    color:white;
+    text-shadow: 1px 1px  black;
+}
+header > div:nth-child(1){
+    background: linear-gradient(to right, rgba(255,255,255,0.0),rgba(255,255,255,0.0),green);
+}
+header > div > strong{
+    background-color: rgba(0,0,0,0.0);
+
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:900px;
+    width:100%;
+}
+header{
+    width:100%;
+    margin-bottom:37px;
+}
+header > div > img{
+    width:300px;
+}
+header > div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    max-width:900px;
+    width:100%;
+    flex-wrap: wrap;
+}
+main > header > div:nth-child(3) > div:nth-child(2){
+    margin-left:30px;
+    background: rgb(139, 86, 5);
+    width:570px;
+}
+article{
+    width:100%;
+}
+article > .first{
+    display:flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+article > .first > ul > h2{
+    min-height: 100px;
+}
+article > .first > ul{
+    width:100%;
+    max-width: 250px;
+}
+.price{
+
+}
+.workTechnology{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    width:100%;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+.workTechnology > ul > p{
+    /* max-width:210px; */
+    width:100%;
+}
+.workTechnology > ul > h3{
+    /* max-width: 210px; */
+    width:100%;
+}
+.workTechnology > ul{
+    width:100%;
+    min-width:150px;
+    max-width: 185px;
+}
+.services{
+    background: white;
+    display:flex;
+    /* flex-wrap: wrap; */
+    width:900px;
+}
+.services > div{
+    width:550px;
+}
+h2{
+    margin:3%;
+}
